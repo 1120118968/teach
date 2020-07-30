@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activitymanfen"
+    android:background="#DDF3FF">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:text="学生一" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:text="学生四" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="223dp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:text="学生三" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="148dp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:text="学生二" />
+
+    <Button
+        android:id="@+id/btnjige"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="满分学生"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:background="#479AC7"/>
+
+
+    <Button
+        android:id="@+id/manfenfanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="#6495ED"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="362dp"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:text="学生五" />
+</RelativeLayout>

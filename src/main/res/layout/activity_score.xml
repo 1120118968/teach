@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#DDF3FF"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#479AC7"
+        android:gravity="center"
+        android:text="成   绩   榜"
+
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/shape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:text="满分学生" />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/shape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:text="及格学生" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:text="不及格学生" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/shape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#111111"
+        android:text="总成绩排名" />
+
+</RelativeLayout>
